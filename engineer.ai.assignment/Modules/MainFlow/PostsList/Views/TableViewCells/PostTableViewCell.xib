@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostTableViewCell" rowHeight="63" id="KGk-i7-Jjw" customClass="PostTableViewCell" customModule="engineer_ai_assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARp-SZ-Gar">
+                        <rect key="frame" x="16" y="8" width="227" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="1000" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53k-rr-c6t">
+                        <rect key="frame" x="16" y="33" width="227" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dgh-Vy-lxB">
+                        <rect key="frame" x="20" y="62.5" width="300" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Rst-ZN-cUR"/>
+                        </constraints>
+                    </view>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wZx-m3-81b">
+                        <rect key="frame" x="251" y="16.5" width="51" height="31"/>
+                        <connections>
+                            <action selector="switcherValuerChangedWithSender:" destination="KGk-i7-Jjw" eventType="valueChanged" id="P1j-ak-Dbh"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wZx-m3-81b" firstAttribute="leading" secondItem="53k-rr-c6t" secondAttribute="trailing" constant="8" id="EWq-x9-udc"/>
+                    <constraint firstItem="ARp-SZ-Gar" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="G3i-ec-lGX"/>
+                    <constraint firstItem="Dgh-Vy-lxB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Nqc-Yr-yLP"/>
+                    <constraint firstItem="wZx-m3-81b" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Oeu-Ba-WWd"/>
+                    <constraint firstAttribute="bottom" secondItem="Dgh-Vy-lxB" secondAttribute="bottom" id="QFd-HJ-R4X"/>
+                    <constraint firstItem="wZx-m3-81b" firstAttribute="leading" secondItem="ARp-SZ-Gar" secondAttribute="trailing" constant="8" id="a1T-Dm-o2J"/>
+                    <constraint firstItem="ARp-SZ-Gar" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="hfv-pg-XqC"/>
+                    <constraint firstAttribute="trailing" secondItem="wZx-m3-81b" secondAttribute="trailing" constant="20" id="iHf-Q4-xKK"/>
+                    <constraint firstItem="wZx-m3-81b" firstAttribute="top" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="jcJ-T8-rpF"/>
+                    <constraint firstItem="53k-rr-c6t" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="jsA-kD-rgV"/>
+                    <constraint firstItem="Dgh-Vy-lxB" firstAttribute="top" secondItem="53k-rr-c6t" secondAttribute="bottom" constant="8" id="sZ0-Fe-rg3"/>
+                    <constraint firstItem="53k-rr-c6t" firstAttribute="top" secondItem="ARp-SZ-Gar" secondAttribute="bottom" constant="4" id="tqo-Bl-05k"/>
+                    <constraint firstAttribute="trailing" secondItem="Dgh-Vy-lxB" secondAttribute="trailing" id="x85-j0-rH9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="createdAtLabel" destination="53k-rr-c6t" id="L9e-iv-fRE"/>
+                <outlet property="postTitleLabel" destination="ARp-SZ-Gar" id="xWR-2h-rhg"/>
+                <outlet property="switcher" destination="wZx-m3-81b" id="5Ef-su-2DZ"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="101.11607142857143"/>
+        </tableViewCell>
+    </objects>
+</document>

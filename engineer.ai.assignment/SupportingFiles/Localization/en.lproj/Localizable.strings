@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  engineer.ai.assignment
+
+  Created by Sergey.Sokoltsov on 8/30/19.
+  Copyright © 2019 CHISW. All rights reserved.
+*/
+
+// MARK: NetworkError
+"commonError" = "Something went wrong!";
+"authenticationError" = "You need to be authenticated first.";
+"badRequest" = "Bad request.";
+"requestOutdated" ="The url you requested is outdated.";
+"requestFailed" = "Network request failed.";
+
+// MARK: Common
+"Success" = "Success";
+"Error" = "Error";
+"OK" = "OK";
+"Cancel" = "Cancel";
+
+// MARK: PostsList
+"PostsScreenTitle" = "Posts";
+"Selected posts count: " = "Selected posts count: ";
