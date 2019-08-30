@@ -35,6 +35,7 @@
 		3ED8753723194AF9009794A8 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8753523194AF9009794A8 /* PostTableViewCell.swift */; };
 		3ED8753823194AF9009794A8 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ED8753623194AF9009794A8 /* PostTableViewCell.xib */; };
 		3ED8753A23194C17009794A8 /* PostsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED8753923194C17009794A8 /* PostsList.storyboard */; };
+		3ED8753C23195A25009794A8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED8753B23195A25009794A8 /* UIView+Extensions.swift */; };
 		551CBB6FA66BA984071E1633 /* Pods_engineer_ai_assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30F5B25176AB3E14F2050091 /* Pods_engineer_ai_assignment.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		3ED8753523194AF9009794A8 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		3ED8753623194AF9009794A8 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		3ED8753923194C17009794A8 /* PostsList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostsList.storyboard; sourceTree = "<group>"; };
+		3ED8753B23195A25009794A8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		AEE7312BEE464C83188E2ED5 /* Pods-engineer.ai.assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-engineer.ai.assignment.release.xcconfig"; path = "Target Support Files/Pods-engineer.ai.assignment/Pods-engineer.ai.assignment.release.xcconfig"; sourceTree = "<group>"; };
 		CE266E5702D53A598F3BFFD4 /* Pods-engineer.ai.assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-engineer.ai.assignment.debug.xcconfig"; path = "Target Support Files/Pods-engineer.ai.assignment/Pods-engineer.ai.assignment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -199,6 +201,7 @@
 				3ED8746123169AAB009794A8 /* String+Extensions.swift */,
 				3ED8747C2316B144009794A8 /* NibLoadable.swift */,
 				3ED874802316B4B2009794A8 /* AlertShowable.swift */,
+				3ED8753B23195A25009794A8 /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				3ED8752B231943CD009794A8 /* PostsListPresenter.swift in Sources */,
 				3ED87459231697D9009794A8 /* NetworkManager.swift in Sources */,
 				3ED874832316B566009794A8 /* MainFlowCoordinator.swift in Sources */,
+				3ED8753C23195A25009794A8 /* UIView+Extensions.swift in Sources */,
 				3ED8753223194457009794A8 /* PostsResponseModel.swift in Sources */,
 				3ED8746623169CCF009794A8 /* PostsRequest.swift in Sources */,
 				3ED8742F2316944D009794A8 /* AppDelegate.swift in Sources */,

@@ -62,10 +62,12 @@ class PostsListViewController: UIViewController, AlertShowable  {
     
     // MARK: Private methods
     private final func fetchPosts() {
+        view.showActivityIndicator(animated: true)
         presenter.getPosts { [weak self] (result) in
             guard let `self` = self else {
                 return
             }
+            self.view.hideActivityIndicator(animated: true)
             switch result {
             case .success(let items):
                 self.posts = items

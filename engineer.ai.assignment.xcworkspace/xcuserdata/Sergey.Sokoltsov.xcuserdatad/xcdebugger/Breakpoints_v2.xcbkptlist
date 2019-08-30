@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "engineer.ai.assignment/Modules/MainFlow/PostsList/PostsListViewController.swift"
-            timestampString = "588863883.386271"
+            timestampString = "588864211.740952"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "engineer.ai.assignment/Modules/MainFlow/PostsList/PostsListViewController.swift"
-            timestampString = "588863883.386728"
+            timestampString = "588864211.741328"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "145"
-            endingLineNumber = "145"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "engineer.ai.assignment/Modules/MainFlow/PostsList/PostsListViewController.swift"
-            timestampString = "588863883.387085"
+            timestampString = "588864211.741577"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
             landmarkName = "handlePostSelection(at:selected:)"
             landmarkType = "7">
          </BreakpointContent>
