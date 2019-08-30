@@ -1,0 +1,6 @@
+framework module Pods_engineer_ai_assignment {
+  umbrella header "Pods-engineer.ai.assignment-umbrella.h"
+
+  export *
+  module * { export * }
+}
